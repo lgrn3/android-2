@@ -16,8 +16,8 @@ body{
     --fonte-android: 'IDroid', cursive;
 }
 article{
-    margin:5%;
-    padding: 5px;
+    margin:0;
+    padding: 10px;
 }
 header{
     background-image: linear-gradient(to bottom, var(--cor1), rgb(36, 103, 36));
