@@ -15,7 +15,10 @@ body{
     --fonte-destaque: 'Bebas Neue', sans-serif;
     --fonte-android: 'IDroid', cursive;
 }
-
+article{
+    margin:auto;
+    padding: 5px;
+}
 header{
     background-image: linear-gradient(to bottom, var(--cor1), rgb(36, 103, 36));
     margin: 0px;
