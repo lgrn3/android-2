@@ -16,7 +16,7 @@ body{
     --fonte-android: 'IDroid', cursive;
 }
 article{
-    margin:auto;
+    margin:5%;
     padding: 5px;
 }
 header{
@@ -185,7 +185,7 @@ div > h3{
 footer{
     background-color: darkgreen;
     margin: 0px;
-    padding: 3px 3px 10px 3px;
+    padding: 5px 5px 15px 5px;
     text-align: center;
     font-weight: bolder;
     color: white;
