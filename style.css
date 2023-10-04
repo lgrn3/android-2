@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@font-face {
+    font-family: IDroid;
+    src: url('pacote-projeto-d010/idroid/IDroid.otf')format('opentype');
+}
+body{
+   background-color: var(--cor3);
+   margin: 0px;
+}
+:root{
+    --cor1: rgb(122, 250, 182);
+    --cor2: rgb(36, 103, 36);
+    --cor3: rgb(164, 249, 164);
+    --fonte-principal: Arial, Helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', sans-serif;
+    --fonte-android: 'IDroid', cursive;
+}
+
+header{
+    background-image: linear-gradient(to bottom, var(--cor1), rgb(36, 103, 36));
+    margin: 0px;
+    padding-top: 40px;
+    box-shadow: 0px 3px 3px 0 rgba(0, 0, 0, 0.233);
+}
+header > h1{
+    font-family: 'Bebas Neue', sans-serif;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.209);
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+header > h2{
+    font-family: var(--fonte-principal);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.209);
+    color: rgba(255, 255, 255, 0.576);
+    font-size: 18px;
+    max-width: 600px;
+    font-size: 1.2em;
+    margin: auto;
+    text-align: center;
+}
+nav{
+    padding: 10px;
+
+}
+nav > a{
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.209);
+    color: white;
+    font-size: 14px;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    margin: auto;
+    
+}
+nav > a:hover{
+    text-decoration: underline;
+    color: black;
+    background-color:var(--cor3) ;
+    transition-duration: .5s;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    
+}
+main{
+    background-color: rgb(255, 255, 255);
+    padding: 0px 20px 3px 5px;
+    min-width: 280px;
+    max-width: 800px;
+    margin: auto;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.678);
+}
+main a{
+    text-decoration: none;
+    color: darkgreen;
+    background-color: lightgreen;
+}
+main a::after{
+   
+    content: '\1F517\00A0';
+}
+main strong{
+    color: darkgreen;
+    font-size: 1em;
+    font-weight: bolder;
+    background-color: var(--cor3);
+    padding: 2px;
+}
+    
+main img.xampola{
+    max-width: 350px;
+    margin: auto;
+    display: block;
+    
+}
+main p{
+    text-indent: 40px;
+    line-height: 2em;
+    text-align: justify;
+}
+
+img{
+    width: 100%;
+}
+section{
+    margin: 0px 50px 1px 50px;
+    padding: 20px;
+}
+article > h1{
+    font-family: IDroid;
+    font-weight: bolder;
+    color: rgb(19, 97, 19);
+    font-size: 30px;
+    text-align: justify;
+    margin: 10px 10px 10px 5px;
+}
+article > h2{
+    font-family: IDroid;
+    font-weight: bold;
+    color: rgb(19, 97, 19);
+    font-size: 20px;
+    text-align: justify;
+    margin: 10px 10px 10px 5px;
+}
+.degrade{
+    background-image: linear-gradient(to right, rgba(162, 234, 162, 0.713), rgba(188, 247, 188, 0.459), rgba(162, 234, 162, 0.05));
+}
+article > p{
+    color: rgba(0, 0, 0, 0.659);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: justify;
+}
+img{
+    margin: auto;
+}
+div#mamar{
+    background-color: rgb(1, 64, 1);
+    padding: 20px;
+    padding-bottom: 50%;
+    position: relative;
+   display: ;
+}
+#mamar > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+div#aprender{
+    background-color: rgb(161, 238, 161);
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.369);
+}
+div > h3{
+    background-color: rgb(49, 137, 49);
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.101);
+}
+#aprender > p{
+    padding: 10px;
+}
+#aprender > ul{
+    columns: 2;
+    display: inline-block;
+    padding: 0px 100px 0px 30px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.478);
+    list-style-position: inside;
+    list-style-type: '\2714\00A0\00A0'
+    
+}
+.mamei{
+    text-decoration: none;
+    color: darkgreen;
+    font-weight: bolder;
+    font-size: 18px;
+}
+footer{
+    background-color: darkgreen;
+    margin: 0px;
+    padding: 3px;
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+    height: 40px;
+}
